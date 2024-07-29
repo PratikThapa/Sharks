@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>About</title>
+</head>
+<body>
+    <header>
+        <h1>
+            Sharks
+            <img src="../images/shark1.jpg" alt="header img" class="header-icon">
+        </h1>
+        <nav>
+            <ul>
+                <li><a href="../pages/home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="#">Species</a></li>
+                <li><a href="./preservation.html">Preservation and Protection</a></li>
+                <li><a href="#">Info</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="info">
+            <h2>Shark Species Information</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Image</th>
+                        <th>Species</th>
+                        <th>Habitat</th>
+                        <th>Diet</th>
+                        <th>Conservation Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><img src="../images/great white.jpg" alt="Great White Shark" class="shark-image"></td>
+                        <td>Great White Shark</td>
+                        <td>Coastal and offshore waters</td>
+                        <td>Fish, seals, sea lions, dolphins, whales</td>
+                        <td>Vulnerable</td>
+                    </tr>
+                    <tr>
+                        <td><img src="../images/hammerhead.jpg" alt="Hammerhead Shark" class="shark-image"></td>
+                        <td>Hammerhead Shark</td>
+                        <td>Coastal and offshore waters</td>
+                        <td>Fish, crustaceans, stingrays</td>
+                        <td>Endangered</td>
+                    </tr>
+                    <tr>
+                        <td><img src="../images/bull.jpg" alt="Bull Shark" class="shark-image"></td>
+                        <td>Bull Shark</td>
+                        <td>Coastal waters, estuaries, rivers</td>
+                        <td>Fish, dolphins, smaller sharks, turtles</td>
+                        <td>Near Threatened</td>
+                    </tr>
+                    <tr>
+                        <td><img src="../images/tigershark.jpg" alt="Tiger Shark" class="shark-image"></td>
+                        <td>Tiger Shark</td>
+                        <td>Coastal and offshore waters</td>
+                        <td>Fish, seals, sea turtles, birds, small sharks</td>
+                        <td>Near Threatened</td>
+                    </tr>
+                    <tr>
+                        <td><img src="../images/Goblin.png" alt="Goblin Shark" class="shark-image"></td>
+                        <td>Goblin Shark</td>
+                        <td>Deep ocean waters</td>
+                        <td>Small fish, crustaceans</td>
+                        <td>Least Concern</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section class="media">
+            <!-- Audio Element -->
+            <div class="media-item">
+                <h2>Shark Sounds</h2>
+                <audio controls>
+                    <source src="../media/sound/Jaws-theme-song.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+
+            <!-- Video Element -->
+            <div class="media-item">
+                <h2>Shark Video</h2>
+                <video controls>
+                    <source src="../media/video/shark-video.mp4" type="video/mp4">
+                    <track kind="subtitles" src="../media/shark-video-subtitles-en.vtt" srclang="en" label="English">
+                    Your browser does not support the video element.
+                </video>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
